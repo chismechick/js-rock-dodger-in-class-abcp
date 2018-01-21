@@ -82,7 +82,7 @@ function moveDodger(e) {
     e.stopPropagation()
   }
 
-  if (code === LEFT_ARROW) {
+  if (e.which === LEFT_ARROW) {
     moveDodgerLeft()
   } else if (code === RIGHT_ARROW) {
     moveDodgerRight()
