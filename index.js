@@ -93,9 +93,7 @@ function moveDodgerLeft() {
   // remove 4 px from the curent dodger left style
   // find the current location/number of pixels
   // subtract 4 from that number of pixels
- var myPositionInPixels
-
-  $("#dodger").style.left
+ var myPositionInPixels = $("#dodger").style.left
   window.requestAnimationFrame(function() {
     const left = positionToInteger(DODGER.style.left)
 
